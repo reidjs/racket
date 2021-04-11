@@ -8,10 +8,6 @@
 ;; nothingcorrect otherwise
 ; (define set-colors (a b)
 
-; )
-; (define (colors-are-same color1 color2)
-;   (if (= color1 color2) #t #f)
-; )
 (define (correct guess color)
   (string=? guess color)
 )
@@ -61,7 +57,3 @@
 (display "Player 1: enter the second color: ")
 (define color2 (read-line))
 (play color1 color2)
-
-
-
-; (provide set-colors check-colors)
