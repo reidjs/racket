@@ -30,3 +30,14 @@ actual:     'TooSmall
 expected:   'Perfect
 --------------------
 ```
+
+## Syntax Highlighting
+Use Magic Racket 
+
+# to add racket and raco to your path
+1. cd /etc/paths.d
+2. sudo touch racket
+3. sudo vim racket
+4. add this to the file:
+  - `PATH/TO/RACKET/bin`
+5. do the same thing for `raco`
